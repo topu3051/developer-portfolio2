@@ -1,0 +1,87 @@
+
+/* header Related styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav related Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 0 150px;
+}
+
+.nav-titile{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* primary item styles */
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.dark-2{
+    color: #474747;
+}
+
+
+/* banner Styles */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+    align-items: center;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+.profile-pic{
+    width: 580px;
+}
